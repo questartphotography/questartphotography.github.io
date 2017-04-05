@@ -1,0 +1,290 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html>
+<title>Quest Art Photography</title>
+<meta charset="UTF-8"><!-- meta tag should define the character set to be UTF-8: -->
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- A viewport meta tag should make the web site work on all devices and screen resolutions -->
+<link rel="stylesheet" href="lib/w3.css">
+<body>
+
+<div class="w3-container w3-white">
+
+
+
+     <div class="w3-container w3-content w3-center">
+
+<style>
+p.ibg {
+    font:italic bold 48px/120px Georgia, serif;
+}
+</style>
+
+     <h1><p class="ibg">QUEST ART PHOTOGRAPHY</p></h1>
+     </div>
+	 
+	 
+
+  <!-- this for the search button -->
+  <div class="w3-container w3-right">
+						   <html>
+									<h2>
+									<style> 
+									input[type=text] {
+										width: 130px;
+										box-sizing: border-box;
+										border: 2px solid #ccc;
+										border-radius: 4px;
+										font-size: 16px;
+										background-color: white;
+										background-image: url('searchicon.png');
+										background-position: 10px 10px; 
+										background-repeat: no-repeat;
+										padding: 12px 20px 12px 40px;
+										-webkit-transition: width 0.4s ease-in-out;
+										transition: width 0.4s ease-in-out;
+									}
+
+									input[type=text]:focus {
+										width: 100%;
+									}
+									</style>
+									</h2>
+									<body>
+
+									<p><i>SEARCH</i></p>
+
+									<form>
+									  <input type="text" name="search" placeholder="Search..">
+									</form>
+
+									</body>
+							</html>
+	</div>
+	<!-- end of search button-->
+  
+  <a href="#" class="w3-btn w3-margin w3-hover-aqua">HOME</a>
+  <a href="aboutus.html" class="w3-btn w3-margin w3-hover-aqua">ABOUT US</a>
+  <a href="gallery.html"class="w3-btn w3-margin w3-hover-aqua">GALLERY</a>
+  <a href="productandservices.html" class="w3-btn w3-margin w3-hover-aqua">PRODUCTS AND SERVICES</a>
+  <a href="contactus.html" class="w3-btn w3-margin w3-hover-aqua">CONTACT US</a>
+  <a href="index.php" class="w3-btn w3-margin w3-hover-aqua">SIGN IN</a>
+
+  
+</div>
+
+
+<hr>
+
+  <!-- Slideshow -->
+    <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/fire.jpg" style="width:100%">
+  </div>
+  
+    <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/nyc.jpg" style="width:100%">
+  </div>
+  
+    <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/gentlemen.jpg" style="width:100%">
+  </div>
+  
+    <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/sky.jpg" style="width:100%">
+  </div>
+  
+    <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/pete2.jpeg" style="width:100%">
+  </div>
+  
+  <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/woman1.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/bb5.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/b9.jpg" style="width:100%">
+    </div>
+
+	<div class="mySlides w3-display-container w3-center">
+    <img src="gallery/allan2.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/bb7.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/rings.jpg" style="width:100%">
+    </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/bb17.jpg" style="width:100%">
+    </div>
+	
+  <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/bb18.jpg" style="width:100%">
+    </div>
+
+	  <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/b8.jpg" style="width:100%">
+    </div>
+	
+		  <div class="mySlides w3-display-container w3-center">
+    <img src="gallery/nairobi.jpg" style="width:100%">
+    </div>
+
+				  <script>
+				// Slideshow - it changes images after 4 seconds
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					   x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 4000);    
+				}
+
+				</script>
+  
+  
+
+
+
+
+
+  <!-- What to expect from Quest Art Photography -->
+  <hr>
+  
+  <div class="w3-row w3-padding-64" id="Art">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">WE CALL IT ART</h1><br>
+      <h4>The art of fun </h4>
+      <p class="w3-text-grey">Once you’ve seen your inner magic revealed we’re confident you’ll want to own every moment</p><br>
+    
+      <h4>Photography as art</h4>
+      <p class="w3-text-grey">Each photo-shoot is focussed exclusively on you and your desires</p><br>
+    
+      <h4>Beauty in the memory</h4>
+      <p class="w3-text-grey">Celebrate every stage of your life with the special people in your life.</p><br>
+    
+      <h4>Capture the fun!</h4>
+      <p class="w3-text-grey">Capture the moment forever...</p><br>
+    
+      <h4>Images that tell a story</h4>
+      <p class="w3-text-grey">Enhance the magic of your story</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="gallery/b10.jpg" class="w3-round w3-image w3-opacity-min" alt="Art" width="500" height="750">
+	  
+    </div>	  
+	  
+  </div>
+
+  
+  
+  
+  
+<hr>
+ 
+    <div class="w3-text-grey w3-container w3-center w3-padding-64" id="Art">
+      <h1> OUR CLIENTS COME FIRST!</h1>
+    </div>
+	
+<hr> 
+	
+	
+	
+  <!-- previous clients comments -->	
+	  
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="gallery/male1.png" style="width:100%">
+      <div class="w3-container">
+        <h5><b>Males   #Henry:</b><i>"Kings, warriors, husbands and brothers!"</i></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="gallery/baby3.png" style="width:100%">
+      <div class="w3-container">
+        <h5><b>Babies   #Baby Christine:</b><i>"Those precious moments!"</i></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="gallery/females1.png" style="width:100%">
+      <div class="w3-container">
+        <h5><b>Females   #Lindsey :</b><i>"The prettiest item a girl can wear is a smile!"</i></h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="gallery/couple1.png" style="width:100%">
+      <div class="w3-container">
+        <h5><b>Couples   #Jimmy & Liz :</b><i>"Loved you yesterday. Love you still. Always have and always will!"</i></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="gallery/graduation.jpg" style="width:100%">
+      <div class="w3-container">
+        <h5><b>Graduations   #Derrick :</b><i>"This picture is a constant reminder of the struggles I've been through but also finally what I have achieved. Thank you Quest Art Photography!!"</i></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card-2">
+      <img src="gallery/children.png" style="width:100%">
+      <div class="w3-container">
+        <h5><b>Children   #Princess Amy :</b><i>" Twinkle, twinkle little star, do you know how loved you are?"</i></h5>
+      </div>
+    </div>
+  </div>
+</div>
+	  
+	  
+	  
+
+	  
+	  
+	  
+<hr>	  
+
+
+
+ 
+<!-- footer --> 
+
+
+<footer class="w3-container w3-light-grey">
+<div>
+    <p class="w3-medium">Quest Art Photography <a href="gallery.html" target="_blank" class="w3-hover-text-green"><i>Seeing beyond</i></a></p>
+	<a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom w3-right"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>	
+</div>
+</footer>
+</body>
+</html> 
+
